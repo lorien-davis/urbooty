@@ -27,6 +27,9 @@
     const img = document.querySelector('img');
     const otherStuff = document.querySelector('.container-child');
     const bootyLink = document.querySelector('span');
+    let vh = window.innerHeight * 0.01;
+
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
 
     img.addEventListener('click', function () {
       img.classList.toggle('showImg');
@@ -37,6 +40,11 @@
       img.classList.toggle('showImg');
       otherStuff.classList.toggle('hideStuff');
     })
+
+    window.addEventListener('resize', () => {
+      let vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    });
   </script>
 </body>
 
