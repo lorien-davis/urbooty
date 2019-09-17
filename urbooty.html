@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>who owns urbooty?</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <div class="container">
+    <img src="./images/image.gif">
+    <div class="container-child">
+      <div class="links">
+        <a href="https://instagram.com/shanti_woah">Shanti</a>
+        <a href="https://instagram.com/jason_howarth">Jason</a>
+        <a href="https://instagram.com/alysseburford">Alysse</a>
+        <a href="https://instagram.com/jahvisloveday">Jahvis</a>
+        <a href="https://instagram.com/lorien.lorien">Lorien</a>
+      </div>
+      <h2>owns <span>urbooty</span></h2>
+    </div>
+  </div>
+  <script>
+    const img = document.querySelector('img');
+    const otherStuff = document.querySelector('.container-child');
+    const bootyLink = document.querySelector('span');
+
+    img.addEventListener('click', function () {
+      img.classList.toggle('showImg');
+      otherStuff.classList.toggle('hideStuff');
+    })
+
+    bootyLink.addEventListener('click', function () {
+      img.classList.toggle('showImg');
+      otherStuff.classList.toggle('hideStuff');
+    })
+  </script>
+</body>
+
+</html>
