@@ -6,8 +6,7 @@ const names = {
   0: ['Shanti', 'instagram.com/shanti_woah'],
   1: ['Alysse', 'instagram.com/alysseburford'],
   2: ['Jahvis', 'instagram.com/jahvisloveday'],
-  3: ['Jason', 'instagram.com/jason_howarth'],
-  4: ['Lorien', 'instagram.com/lorien.lorien']
+  3: ['Lorien', 'instagram.com/lorien.lorien']
 }
 const namesLength = Object.keys(names).length;
 
