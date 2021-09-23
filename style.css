@@ -15,21 +15,34 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 50px;
+}
+
+.freeloaders {
+  display: none;
+  color: hsla(0, 0%, 0%, 0.25);
+}
+
+.freeloaders * {
+  /* font-weight: normal; */
+  font-size: 1em;
+  line-height: 1.5em;
 }
 
 h1 {
-  margin: 0 5vw;
-  margin-top: 15vh;
-
   font-size: 7vh;
   text-align: center;
 }
 
 h2 {
   margin-top: 0.5em;
-  margin-bottom: 15vh;
 
   font-size: 3vh;
+  text-align: center;
+}
+
+h3 {
+  font-size: 4vh;
   text-align: center;
 }
 
